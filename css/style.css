@@ -18,6 +18,13 @@ body {
   border: transparent;
 }
 
+.btn-white {
+  background-color: white;
+  color: black;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+
 .btn-blue {
   background-color: #0084fd;
   color: white;
@@ -451,12 +458,118 @@ footer span {
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
 
   body {
     max-width: 1200px;
+    margin: 0 auto;
   }
 
+  .fa-bars {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+  }
+
+  .menu-links ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    
+  }
+
+  .s1 {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2em;
+    gap: 1em;
+  }
+
+  .s1-col:first-child {
+    width: calc(100% / 3 * 2 - 1em);
+  }
+
+  .s1-col {
+    margin: 0;
+    width: calc(100% / 3 - 1em);
+  }
+
+  .s1-first {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+  .s1-col-img img {
+    width: 80%;
+  }
+
+  .s1-col-img {
+    height: 80%;
+  }
+
+  .s1-first-col {
+    max-width: 400px;
+  }
+
+  .s2 {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .s2-right-col {
+    max-height: 600px;
+    max-width: 400px;
+  }
+
+  .s2-right-col img {
+    width: 60%;
+  }
+
+  
+
+  .s3-col {
+    flex-direction: row;
+  }
+
+  .s3-col-img {
+    min-width: 180px;
+  }
+
+  .s3-col-text {
+    margin-bottom: 0;
+  }
+
+  .s4-inner {
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .s4-col {
+    width: calc(100% / 2 - 2em);
+    margin: 0;
+  }
+
+  .s5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .s5-right-section img {
+    min-width: 264px;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .s5-right-section .fa-quote-left {
+    left: 70%;
+  }
   
 }
 
