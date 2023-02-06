@@ -380,3 +380,45 @@ footer span {
 }
 
 /* /footer */
+
+/* media */
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+
+  body {
+    max-width: 991px;
+  }
+
+ .s1 {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2em;
+    gap: 0.5em;
+  }
+
+  .s1-col:first-child {
+    width: calc(100% / 3 * 2 - 0.5em);
+  }
+
+  .s1-col {
+    margin: 0;
+    width: calc(100% / 3 - 0.5em);
+  }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  body {
+    max-width: 1200px;
+  }
+
+  
+}
+
+/* /media */
