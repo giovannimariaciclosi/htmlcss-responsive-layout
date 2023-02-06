@@ -9,6 +9,22 @@ body {
   max-width: 576px;
 }
 
+/* assets */
+.btn {
+  display: flex;
+  gap: 1em;
+}
+
+.btn-blue {
+  background-color: #0084fd;
+  color: white;
+  border: transparent;
+  padding: 0.5em 2em;
+  border-radius: 15px;
+}
+
+/* /assets */
+
 /* navbar */
 nav {
   background-color: #0084fd;
@@ -30,3 +46,70 @@ nav {
   font-size: 1.5em;
 }
 /* /navbar */
+
+
+/* section 1 */
+.s1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 2em 0;
+}
+
+.s1-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  background-color: #b5ddff;
+  border-radius: 5%;
+  margin: 1em 2em;
+}
+
+.s1-col-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 2em 1em 1em 1em;
+  }
+
+  .s1-col-text h1 {
+    color: #0084fd;
+    font-size: 1.3em;
+  }
+
+  .s1-col-text p {
+    text-align: center;
+  }
+
+  .s1-col-text .fa-solid {
+    color: #0084fd;
+    font-size: 5em;
+  }
+
+  .s1-col-img img {
+    width: 70%;
+  }
+
+  .s1-col-img {
+    display: flex;
+    justify-content: center;  
+  }
+
+  /* prima colonna */
+  
+  .s1-first-col {
+    align-items: flex-start;
+  }
+
+  .s1-first-col p {
+    text-align: left;
+  }
+
+  /* /prima colonna */
+
+  /* /section1 */
+
+  /* section2 */
+  /* /section2 */
