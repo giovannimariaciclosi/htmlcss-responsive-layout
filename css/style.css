@@ -33,6 +33,12 @@ body {
   padding: 0.6em 1em;
 }
 
+.get-started {
+  color: #9792e4;
+  padding: 1em 3em;
+  border-radius: 20px;
+}
+
 /* /assets */
 
 /* navbar */
@@ -327,3 +333,31 @@ nav {
   left: 45%;
 }
 /* /section 5 */
+
+/* section6 */
+
+.s6 {
+  padding: 4em 2em;
+  text-align: center;
+  background-color: #9792e4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.s6 h1 {
+  color: #fdc15f;
+  font-size: 4em;
+}
+
+.s6 span:first-child {
+  font-weight: 300;
+}
+
+.s6 span:last-child {
+  text-decoration: underline;
+}
+
+/* /section6 */
