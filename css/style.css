@@ -361,3 +361,22 @@ nav {
 }
 
 /* /section6 */
+
+/* footer */
+footer {
+  padding: 4em 2em;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6em;
+}
+
+footer span {
+  text-decoration: underline;
+  color: #9792e4;
+}
+
+/* /footer */
