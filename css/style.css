@@ -393,16 +393,16 @@ footer span {
     flex-flow: row wrap;
     justify-content: center;
     margin: 2em;
-    gap: 0.5em;
+    gap: 1em;
   }
 
   .s1-col:first-child {
-    width: calc(100% / 3 * 2 - 0.5em);
+    width: calc(100% / 3 * 2 - 1em);
   }
 
   .s1-col {
     margin: 0;
-    width: calc(100% / 3 - 0.5em);
+    width: calc(100% / 3 - 1em);
   }
 
   .s3-col {
@@ -415,6 +415,17 @@ footer span {
 
   .s3-col-text {
     margin-bottom: 0;
+  }
+
+  .s4-inner {
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .s4-col {
+    width: calc(100% / 2 - 2em);
+    margin: 0;
   }
 
 }
