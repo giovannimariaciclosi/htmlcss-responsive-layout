@@ -13,14 +13,20 @@ body {
 .btn {
   display: flex;
   gap: 1em;
+  padding: 0.5em 2em;
+  border-radius: 15px;
+  border: transparent;
 }
 
 .btn-blue {
   background-color: #0084fd;
   color: white;
-  border: transparent;
-  padding: 0.5em 2em;
-  border-radius: 15px;
+}
+
+.btn-purple {
+  background-color: #9792e4;
+  color: white;
+  padding: 0.6em 3em;
 }
 
 /* /assets */
@@ -117,7 +123,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  margin: 2em 0;
+  margin: 4em 0;
   background-color: #9792e4;
 }
 
@@ -169,7 +175,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  margin: 2em 0;
+  margin: 4em 0;
 }
 
 .s3-text-section {
@@ -243,5 +249,40 @@ nav {
 /* /section3 */
 
 /* section4 */
+.s4 {
+  padding: 4em 0;
+  background-color: #9792e4;
+}
 
+.s4 h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.s4-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.s4-inner h1 {
+  text-align: left;
+  color: #9792e4;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.s4-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  color: #9792e4;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 1em 2em;
+}
 /* /section4 */
