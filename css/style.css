@@ -405,6 +405,18 @@ footer span {
     width: calc(100% / 3 - 0.5em);
   }
 
+  .s3-col {
+    flex-direction: row;
+  }
+
+  .s3-col-img {
+    min-width: 180px;
+  }
+
+  .s3-col-text {
+    margin-bottom: 0;
+  }
+
 }
 
 
