@@ -6,4 +6,27 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  max-width: 576px;
 }
+
+/* navbar */
+nav {
+  background-color: #0084fd;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1em 2em;
+}
+
+.menu-links {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 1.5em;
+}
+/* /navbar */
