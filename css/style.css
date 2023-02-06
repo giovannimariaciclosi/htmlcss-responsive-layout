@@ -428,7 +428,21 @@ footer span {
     margin: 0;
   }
 
-  
+  .s5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .s5-right-section img {
+    min-width: 264px;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .s5-right-section .fa-quote-left {
+    left: 70%;
+  }
 
 }
 
